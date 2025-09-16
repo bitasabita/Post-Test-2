@@ -12,18 +12,18 @@ Sistem manajemen koleksi sepatu digital adalah sebuah program yang dirancang unt
 Program ini dibuat dengan konsep:
 
 * **Constructor** → digunakan untuk membuat dan menginisialisasi objek sepatu.
-* **Access modifier (private & public)**→ menjaga agar data tetap aman dan hanya bisa diakses lewat method tertentu.
+* **Access modifier** (private & public)**→ menjaga agar data tetap aman dan hanya bisa diakses lewat method tertentu.
 * **Validasi input**→ memastikan data yang dimasukkan benar (misalnya ukuran sepatu harus berupa angka).
 * **Fitur Search**→ memudahkan pengguna menemukan data koleksi dengan cepat.
 
-Fitur utama yang tersedia antara lain:
+Fitur utama yang tersedia:
 
-1. **Tambah Koleksi**: Pengguna dapat menambahkan data alat makeup baru.
-2. **Lihat Koleksi**: Menampilkan seluruh daftar koleksi yang sudah tersimpan.
-3. **Ubah Koleksi**: Memperbarui data koleksi yang dipilih
-4. **Hapus Koleksi**: Menghapus data koleksi dari daftar
-5. **Cari Koleksi**: Mencari data koleksi berdasarkan nama alat.
-6. **Keluar Program**: Menghentikan jalannya program
+1. **Tambah Koleksi**: pengguna bisa menambahkan sepatu baru dengan detail lengkap (nama, merk, warna, ukuran).
+2. **Lihat Koleksi**: menampilkan seluruh sepatu yang sudah tersimpan di dalam daftar.
+3. **Ubah Koleksi**: memungkinkan pengguna memperbarui data sepatu tertentu.
+4. **Hapus Koleksi**: menghapus data sepatu dari daftar jika sudah tidak diperlukan.
+5. **Cari Koleksi**: mencari sepatu berdasarkan kata kunci, misalnya nama, merk, atau warna
+6. **Keluar Program**: menutup aplikasi dengan aman setelah pengguna selesai melakukan pengelolaan data
 
 # Struktur Packages 
 
