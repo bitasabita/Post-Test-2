@@ -50,7 +50,8 @@ Dengan pemisahan ini, struktur kode menjadi lebih rapi, mudah dipelihara, dan se
 <details>
 <summary><h3>Menu Utama Koleksi Sepatu</h3></summary>
 
-<img width="318" height="178" alt="image" src="https://github.com/user-attachments/assets/0f447f12-3ad8-47d9-907e-63f4739b898e" />
+<img width="279" height="137" alt="image" src="https://github.com/user-attachments/assets/d9f2a255-12e2-42da-9027-a7b3829df105" />
+
 
 Begitu program dijalankan, pengguna langsung disajikan menu utama yang berisi daftar pilihan. Cukup masukkan nomor menu sesuai yang diinginkan, lalu program akan menjalankan perintah tersebut. Setelah selesai, menu utama akan muncul lagi sehingga pengguna bisa melanjutkan ke pilihan lain.
 
@@ -58,37 +59,33 @@ Program hanya akan berhenti jika pengguna memilih opsi Keluar.
 
 ## 1. Tambah Koleksi
 
-<img width="461" height="307" alt="image" src="https://github.com/user-attachments/assets/36267c6b-f627-4d59-aadd-7fce7ad4b57c" />
+<img width="406" height="230" alt="image" src="https://github.com/user-attachments/assets/31bd9caa-2ad1-4b19-b872-c95355bc1522" />
 
-Di menu ini, pengguna diminta mengisi detail sepatu: nama, merk, warna, dan ukuran. Data yang valid akan langsung tersimpan, lalu program memberi konfirmasi "Sepatu berhasil ditambahkan!"
 
-Kalau input tidak sesuai, misalnya ukuran bukan angka, program akan menolak dan menampilkan pesan error sampai pengguna mengisi dengan benar.
-
-<img width="387" height="257" alt="image" src="https://github.com/user-attachments/assets/a0fb64c5-fb49-4dcc-920a-224b6e19b3d6" />
-
-Saat pengguna diminta memasukkan Nama Alat Makeup, pengguna menekan enter tanpa mengetikkan apapun sehingga program akan menampilkan pesan "Nama tidak boleh kosong!" dan berlaku untuk memasukkan jenis makeup, merk, dan jumlah.
+Di menu ini, pengguna diminta mengisi detail sepatu: nama, merk, warna, dan ukuran. Data yang valid akan langsung tersimpan, lalu program memberi konfirmasi "Sepatu berhasil ditambahkan!". Data yang dimasukkan akan otomatis tersimpan dalam koleksi.
 
 ## 2. Lihat Koleksi
 
-<img width="648" height="291" alt="image" src="https://github.com/user-attachments/assets/05f1adac-5451-46a9-9901-6cd1479c5be6" />
+<img width="541" height="216" alt="image" src="https://github.com/user-attachments/assets/d8b649c2-92ae-47b7-89e2-6fd23ceb8f51" />
 
-Menu ini akan menampilkan semua sepatu yang sudah ada dalam koleksi. Kalau belum ada data, sistem akan memberi tahu bahwa koleksi masih kosong.
+
+Menu ini akan menampilkan semua sepatu yang sudah ada dalam koleksi,informasi akan ditampilkan dalam bentuk list agar pengguna bisa melihat data dengan jelas. Kalau belum ada data, sistem akan memberi tahu bahwa koleksi masih kosong seperti dibawah ini:
+
+
 
 ## 3. Ubah Koleksi
 
-<img width="721" height="502" alt="image" src="https://github.com/user-attachments/assets/09e0ea09-786d-48f6-ad8e-98439884953b" />
+<img width="527" height="310" alt="image" src="https://github.com/user-attachments/assets/e15e421d-d5e5-452d-957d-524d49ad2b9b" />
 
-Pengguna memilih nomor sepatu yang ingin diubah, lalu memasukkan data baru untuk mengganti yang lama. Validasi tetap berlaku, jadi hanya nomor yang tersedia saja yang bisa diubah.
+Jika terdapat kesalahan data atau ada perubahan, pengguna dapat memperbarui informasi sepatu yang sudah tersimpan. Pengguna memilih nomor sepatu yang ingin diubah, lalu memasukkan data baru untuk mengganti yang lama. Validasi tetap berlaku, jadi hanya nomor yang tersedia saja yang bisa diubah. Jika memasukkan nomor yang tidak tersedia tampilannya akan seperti berikut:
 
-<img width="649" height="325" alt="image" src="https://github.com/user-attachments/assets/f171e1a5-256e-49fc-89fc-b6135c31b6fd" />
-
-Apabila pengguna memasukkan nomor koleksi yang tidak tersedia, program akan menampilkan pesan "Nomor tidak valid!" sebagai bentuk validasi agar pengguna tidak bisa mengubah koleksi yang tidak ada.
+<img width="471" height="96" alt="image" src="https://github.com/user-attachments/assets/465373a5-55f3-4d8c-93b0-5d6a8360ccaa" />
 
 ## 4. Hapus Koleksi
 
 <img width="658" height="563" alt="image" src="https://github.com/user-attachments/assets/7219cd8a-7727-4abd-96cb-1011147df63e" />
 
-Menu ini memungkinkan pengguna menghapus sepatu tertentu dari daftar. Sama seperti update, hanya nomor valid yang bisa dipilih.
+Menu ini memungkinkan pengguna menghapus sepatu tertentu dari daftar.Sistem akan menampilkan daftar sepatu, lalu meminta konfirmasi data mana yang ingin dihapus. Sama seperti update, hanya nomor valid yang bisa dipilih.
 
 <img width="689" height="340" alt="image" src="https://github.com/user-attachments/assets/fad4e55f-c038-4ad6-aef7-98e5e77b38f0" />
 
@@ -98,7 +95,7 @@ Apabila pengguna memasukkan nomor koleksi yang tidak tersedia, program akan mena
 
 <img width="688" height="257" alt="image" src="https://github.com/user-attachments/assets/b1842f83-d03a-4824-b310-b656420faffd" />
 
-Fitur pencarian sangat membantu jika daftar sepatu sudah banyak. Cukup masukkan kata kunci (nama, merk, atau warna), maka sistem akan menampilkan semua sepatu yang cocok.
+Fitur pencarian berfungsi untuk memudahkan pengguna menemukan data sepatu tertentu ketika koleksi sudah cukup banyak. Pengguna hanya perlu memasukkan kata kunci berupa nama, merk, atau warna, kemudian sistem akan menampilkan daftar sepatu yang sesuai dengan kata kunci tersebut.
 
 <img width="523" height="245" alt="image" src="https://github.com/user-attachments/assets/3b610936-5e2b-453e-b22d-616a7b452ed8" />
 
