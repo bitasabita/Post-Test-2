@@ -29,9 +29,9 @@ Fitur utama yang tersedia:
 
 <img width="560" height="182" alt="image" src="https://github.com/user-attachments/assets/2c2cbe87-2d13-4602-8730-0b66e9e21077" />
 
-Program ini menggunakan Model-View-Controller (MVC):
+Program ini disusun menggunakan konsep Model-View-Controller (MVC):
 
-* **model**: Menyimpan struktur data berupa class Makeup dengan atribut dan constructor.
+* **model**: berisi class Sepatu yang mendefinisikan atribut (nama, merk, warna, ukuran) beserta constructor dan getter/setter.
 
   AlatMakeup.java: mendefinisikan properties (nama, jenis, merk, jumlah) dengan constructor dan getter/setter.
   
@@ -45,7 +45,7 @@ Program ini menggunakan Model-View-Controller (MVC):
 
 Dengan pemisahan ini, struktur kode menjadi lebih rapi, mudah dipelihara, dan sesuai konsep MVC.
 
-# Penggunaan Program
+# Cara Menggunakan Program
 
 <details>
 <summary><h3>Menu Koleksi Alat Makeup</h3></summary>
