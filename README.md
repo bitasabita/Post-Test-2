@@ -27,7 +27,8 @@ Fitur utama yang tersedia:
 
 # Struktur Packages 
 
-<img width="560" height="182" alt="image" src="https://github.com/user-attachments/assets/2c2cbe87-2d13-4602-8730-0b66e9e21077" />
+<img width="317" height="144" alt="image" src="https://github.com/user-attachments/assets/8f3518c8-0e6a-4acf-b813-a26cc30791dd" />
+
 
 Program ini disusun menggunakan konsep Model-View-Controller (MVC):
 
@@ -35,7 +36,7 @@ Program ini disusun menggunakan konsep Model-View-Controller (MVC):
 
 * **service**: Bagian ini berisi logika utama atau proses bisnis dari program. Di sinilah semua fitur CRUD (Create, Read, Update, Delete) dijalankan, misalnya menambah sepatu baru, menampilkan daftar sepatu, memperbarui data sepatu, atau menghapus sepatu dari koleksi. Selain CRUD, bagian service juga menangani fitur tambahan, seperti validasi input (agar data yang dimasukkan tidak kosong atau salah format) dan pencarian sepatu berdasarkan kata kunci (nama, merk, atau warna).
 
-* **main**: Bagian ini berisi class Main yang berfungsi sebagai pintu masuk program. Di sinilah menu ditampilkan kepada pengguna, lalu setiap pilihan menu akan diarahkan ke bagian service untuk diproses. Dengan kata lain, main bertugas menghubungkan interaksi pengguna dengan logika program yang ada di service. Jadi, saat pengguna memilih opsi tertentu, main akan memanggil metode yang sesuai dari service agar program bisa berjalan sesuai perintah.
+* **main (com.mycompany.mavenproject3)**: Bagian ini berisi class Main yang berfungsi sebagai pintu masuk program. Di sinilah menu ditampilkan kepada pengguna, lalu setiap pilihan menu akan diarahkan ke bagian service untuk diproses. Dengan kata lain, main bertugas menghubungkan interaksi pengguna dengan logika program yang ada di service. Jadi, saat pengguna memilih opsi tertentu, main akan memanggil metode yang sesuai dari service agar program bisa berjalan sesuai perintah.
 
 
 # Cara Menggunakan Program
