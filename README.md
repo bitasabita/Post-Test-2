@@ -106,5 +106,10 @@ Apabila kata kuncinya tidak ada yang sesuai, maka tampilannya akan seperti ini:
 Jika pengguna ingin keluar dari program, cukup memilih opsi 0 (Keluar) pada menu utama. Setelah dipilih, sistem akan menampilkan pesan “Terima kasih, program selesai.” sebagai tanda bahwa program sudah dihentikan. Bagian bawah layar juga menampilkan informasi dari Java, yaitu status BUILD SUCCESS yang berarti program berhasil dijalankan tanpa error, serta waktu total eksekusi program hingga selesai.
 
 
+<details>
+<summary><h3>Validasi Input</h3></summary>
+
+
+
 
 
