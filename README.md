@@ -1,20 +1,20 @@
 # Post-Test-2
 
-# Koleksi Alat Makeup
+# 👟 Sistem Manajemen Koleksi Sepatu Digital 
 
 | Nama                      | NIM           | Kelas             |
 |---------------------------|---------------|-------------------|
 | Tsabitah Kawiswara        | 2409116099    | Sistem Informasi C |
 
 ## 📄Deskripsi Program
-Program ini adalah sebuah sistem manajemen koleksi alat makeup berbasis Java yang menerapkan konsep Object-Oriented Program (OOP). Program memiliki satu role yaitu pengguna, yang dapat melakukan operasi CRUD (Create, Read, Update, Delete) terhadap data koleksi alat makeup terhadap data koleksi alat makeup. Data yang dikelola mencakup nama alat, jenis, merk, dan jumlah.
+Sistem manajemen koleksi sepatu digital adalah sebuah program yang dirancang untuk membantu mengatur dan menyimpan data sepatu secara lebih terstruktur. Dengan menerapkan prinsip Pemrograman Berorientasi Objek (OOP), sistem ini mampu menyajikan pengelolaan data yang efisien, rapi, dan mudah dipahami. Setiap detail sepatu, mulai dari jenis, warna, hingga ukuran, dapat dicatat dan diakses dengan lebih praktis tanpa harus bergantung pada ingatan atau catatan manual. Dengan demikian, koleksi sepatu menjadi lebih tertata, terorganisir, serta meminimalisir risiko kesalahan dalam pencatatan data.
 
-Program ini menerapkan:
+Program ini dibuat dengan konsep:
 
-* **Constructor** untuk insialisasi objek
-* **Access modifier (private & public)**
-* **Validasi input**, sehingga program hanya menerima data yang sesuai.
-* **Fitur Search**, untuk mencari data koleksi 
+* **Constructor** → digunakan untuk membuat dan menginisialisasi objek sepatu.
+* **Access modifier (private & public)**→ menjaga agar data tetap aman dan hanya bisa diakses lewat method tertentu.
+* **Validasi input**→ memastikan data yang dimasukkan benar (misalnya ukuran sepatu harus berupa angka).
+* **Fitur Search**→ memudahkan pengguna menemukan data koleksi dengan cepat.
 
 Fitur utama yang tersedia antara lain:
 
