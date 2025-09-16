@@ -48,17 +48,21 @@ Dengan pemisahan ini, struktur kode menjadi lebih rapi, mudah dipelihara, dan se
 # Cara Menggunakan Program
 
 <details>
-<summary><h3>Menu Koleksi Alat Makeup</h3></summary>
+<summary><h3>Menu Utama Koleksi Sepatu</h3></summary>
 
 <img width="318" height="178" alt="image" src="https://github.com/user-attachments/assets/0f447f12-3ad8-47d9-907e-63f4739b898e" />
 
-Saat program pertama kali dijalankan, sistem akan langsung menampilkan menu utama yang berisi daftar pilihan menu. Pengguna diminta untuk memasukkan nomor menu sesuai dengan pilihan yang diinginkan. Setelah itu, program akan menjalankan perintah sesuai input pengguna dan kemudian kembali menampilkan menu utama, hingga pengguna memilih opsi Keluar untuk menghentikan program.
+Begitu program dijalankan, pengguna langsung disajikan menu utama yang berisi daftar pilihan. Cukup masukkan nomor menu sesuai yang diinginkan, lalu program akan menjalankan perintah tersebut. Setelah selesai, menu utama akan muncul lagi sehingga pengguna bisa melanjutkan ke pilihan lain.
+
+Program hanya akan berhenti jika pengguna memilih opsi Keluar.
 
 ## 1. Tambah Koleksi
 
 <img width="461" height="307" alt="image" src="https://github.com/user-attachments/assets/36267c6b-f627-4d59-aadd-7fce7ad4b57c" />
 
-Jika pengguna memilih opsi 1. Tambah Koleksi, program akan meminta pengguna untuk mengisi data alat makeup yang ingin dimasukkan ke dalam daftar koleksi. Setelah semua data dimasukkan dengan benar, program akan menyimpan informasi tersebut ke dalam ArrayList dan menampilkan pesan "Koleksi berhasil ditambahkan!". Data alat makeup baru akan tersimpan dan bisa dilihat kembali melalui menu Lihat Koleksi.
+Di menu ini, pengguna diminta mengisi detail sepatu: nama, merk, warna, dan ukuran. Data yang valid akan langsung tersimpan, lalu program memberi konfirmasi "Sepatu berhasil ditambahkan!"
+
+Kalau input tidak sesuai, misalnya ukuran bukan angka, program akan menolak dan menampilkan pesan error sampai pengguna mengisi dengan benar.
 
 <img width="387" height="257" alt="image" src="https://github.com/user-attachments/assets/a0fb64c5-fb49-4dcc-920a-224b6e19b3d6" />
 
@@ -68,13 +72,13 @@ Saat pengguna diminta memasukkan Nama Alat Makeup, pengguna menekan enter tanpa 
 
 <img width="648" height="291" alt="image" src="https://github.com/user-attachments/assets/05f1adac-5451-46a9-9901-6cd1479c5be6" />
 
-Jika pengguna memilih opsi 2. Lihat Koleksi, program akan menampilkan seluruh daftar alat makeup yang sudah tersimpan.
+Menu ini akan menampilkan semua sepatu yang sudah ada dalam koleksi. Kalau belum ada data, sistem akan memberi tahu bahwa koleksi masih kosong.
 
 ## 3. Ubah Koleksi
 
 <img width="721" height="502" alt="image" src="https://github.com/user-attachments/assets/09e0ea09-786d-48f6-ad8e-98439884953b" />
 
-Jika pengguna memilih opsi 3. Ubah Koleksi, maka program akan meminta nomor koleksi yang ingin diubah. Setelah itu, pengguna dapat memasukkan data baru untuk mengganti data lama. Setelah sudah memasukkan data baru, pengguna bisa mengecek kembali dengan opsi 2. Lihat Koleksi.
+Pengguna memilih nomor sepatu yang ingin diubah, lalu memasukkan data baru untuk mengganti yang lama. Validasi tetap berlaku, jadi hanya nomor yang tersedia saja yang bisa diubah.
 
 <img width="649" height="325" alt="image" src="https://github.com/user-attachments/assets/f171e1a5-256e-49fc-89fc-b6135c31b6fd" />
 
@@ -84,7 +88,7 @@ Apabila pengguna memasukkan nomor koleksi yang tidak tersedia, program akan mena
 
 <img width="658" height="563" alt="image" src="https://github.com/user-attachments/assets/7219cd8a-7727-4abd-96cb-1011147df63e" />
 
-Jika pengguna memilih opsi 4. Hapus Koleksi, maka program akan meminta nomor koleksi yang ingin dihapus. Setelah itu, data koleksi akan dihapus dari daftar
+Menu ini memungkinkan pengguna menghapus sepatu tertentu dari daftar. Sama seperti update, hanya nomor valid yang bisa dipilih.
 
 <img width="689" height="340" alt="image" src="https://github.com/user-attachments/assets/fad4e55f-c038-4ad6-aef7-98e5e77b38f0" />
 
@@ -94,7 +98,7 @@ Apabila pengguna memasukkan nomor koleksi yang tidak tersedia, program akan mena
 
 <img width="688" height="257" alt="image" src="https://github.com/user-attachments/assets/b1842f83-d03a-4824-b310-b656420faffd" />
 
-Jika pengguna memilih opsi 5, maka program akan meminta kata kunci pencarian dari nama atau merk alat makeup. Setelah itu, program akan menampilkan daftar alat makeup yang sesuai kata kunci.
+Fitur pencarian sangat membantu jika daftar sepatu sudah banyak. Cukup masukkan kata kunci (nama, merk, atau warna), maka sistem akan menampilkan semua sepatu yang cocok.
 
 <img width="523" height="245" alt="image" src="https://github.com/user-attachments/assets/3b610936-5e2b-453e-b22d-616a7b452ed8" />
 
