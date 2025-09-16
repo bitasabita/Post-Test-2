@@ -31,19 +31,12 @@ Fitur utama yang tersedia:
 
 Program ini disusun menggunakan konsep Model-View-Controller (MVC):
 
-* **model**: berisi class Sepatu yang mendefinisikan atribut (nama, merk, warna, ukuran) beserta constructor dan getter/setter.
+* **model**: Bagian ini berisi class Sepatu yang berfungsi sebagai cetakan atau blueprint untuk membuat objek sepatu. Di dalamnya terdapat atribut penting seperti nama, merk, warna, dan ukuran. Class ini juga memiliki constructor untuk menginisialisasi data saat objek sepatu dibuat, serta getter dan setter yang digunakan untuk mengambil dan mengubah nilai atribut dengan cara yang lebih terkontrol. Dengan adanya model, setiap data sepatu bisa disimpan dalam bentuk objek yang rapi dan terstruktur.
 
-  AlatMakeup.java: mendefinisikan properties (nama, jenis, merk, jumlah) dengan constructor dan getter/setter.
-  
-* **service**: Berisi logika bisnis CRUD dan fitur tambahan seperti validasi input dan pencarian.
+* **service**: Bagian ini berisi logika utama atau proses bisnis dari program. Di sinilah semua fitur CRUD (Create, Read, Update, Delete) dijalankan, misalnya menambah sepatu baru, menampilkan daftar sepatu, memperbarui data sepatu, atau menghapus sepatu dari koleksi. Selain CRUD, bagian service juga menangani fitur tambahan, seperti validasi input (agar data yang dimasukkan tidak kosong atau salah format) dan pencarian sepatu berdasarkan kata kunci (nama, merk, atau warna).
 
-  KoleksiService.java: mengelola list koleksi makeup, menambahkan, menampilkan, memperbarui, menghapus, dan mencari data.
-  
-* **main**: Menyimpan class Main yang menampilkan menu dan menghubungkan pengguna dengan service.
+* **main**: Bagian ini berisi class Main yang berfungsi sebagai pintu masuk program. Di sinilah menu ditampilkan kepada pengguna, lalu setiap pilihan menu akan diarahkan ke bagian service untuk diproses. Dengan kata lain, main bertugas menghubungkan interaksi pengguna dengan logika program yang ada di service. Jadi, saat pengguna memilih opsi tertentu, main akan memanggil metode yang sesuai dari service agar program bisa berjalan sesuai perintah.
 
-  Main.java: Menampilkan menu, menerima input dari pengguna, memanggil method pada KoleksiService
-
-Dengan pemisahan ini, struktur kode menjadi lebih rapi, mudah dipelihara, dan sesuai konsep MVC.
 
 # Cara Menggunakan Program
 
@@ -71,6 +64,7 @@ Di menu ini, pengguna diminta mengisi detail sepatu: nama, merk, warna, dan ukur
 
 Menu ini akan menampilkan semua sepatu yang sudah ada dalam koleksi,informasi akan ditampilkan dalam bentuk list agar pengguna bisa melihat data dengan jelas. Kalau belum ada data, sistem akan memberi tahu bahwa koleksi masih kosong seperti dibawah ini:
 
+<img width="370" height="155" alt="image" src="https://github.com/user-attachments/assets/62fbf15e-28f6-4abf-b7f5-dd70a1999a7d" />
 
 
 ## 3. Ubah Koleksi
@@ -101,6 +95,15 @@ Fitur pencarian berfungsi untuk memudahkan pengguna menemukan data sepatu terten
 Apabila kata kuncinya tidak ada yang sesuai, maka tampilannya akan seperti ini:
 
 <img width="393" height="183" alt="image" src="https://github.com/user-attachments/assets/6744d2d0-e3af-406e-aef6-a11f97735f3c" />
+
+
+## 6. Keluar Program
+
+<img width="432" height="252" alt="image" src="https://github.com/user-attachments/assets/7a19b0dc-da22-47a0-95f8-3c01f8effb3d" />
+
+
+Jika pengguna ingin keluar dari program, cukup memilih opsi 0 (Keluar) pada menu utama. Setelah dipilih, sistem akan menampilkan pesan “Terima kasih, program selesai.” sebagai tanda bahwa program sudah dihentikan. Bagian bawah layar juga menampilkan informasi dari Java, yaitu status BUILD SUCCESS yang berarti program berhasil dijalankan tanpa error, serta waktu total eksekusi program hingga selesai.
+
 
 
 
