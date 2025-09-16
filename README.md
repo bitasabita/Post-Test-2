@@ -81,22 +81,26 @@ Jika terdapat kesalahan data atau ada perubahan, pengguna dapat memperbarui info
 
 <img width="471" height="96" alt="image" src="https://github.com/user-attachments/assets/465373a5-55f3-4d8c-93b0-5d6a8360ccaa" />
 
+
 ## 4. Hapus Koleksi
 
-<img width="658" height="563" alt="image" src="https://github.com/user-attachments/assets/7219cd8a-7727-4abd-96cb-1011147df63e" />
+<img width="466" height="247" alt="image" src="https://github.com/user-attachments/assets/b79aac8a-386d-44fe-bd73-1b149777e1e5" />
 
-Menu ini memungkinkan pengguna menghapus sepatu tertentu dari daftar.Sistem akan menampilkan daftar sepatu, lalu meminta konfirmasi data mana yang ingin dihapus. Sama seperti update, hanya nomor valid yang bisa dipilih.
 
-<img width="689" height="340" alt="image" src="https://github.com/user-attachments/assets/fad4e55f-c038-4ad6-aef7-98e5e77b38f0" />
+Menu ini memungkinkan pengguna menghapus sepatu tertentu dari daftar.Sistem akan menampilkan daftar sepatu, lalu meminta konfirmasi data mana yang ingin dihapus. Sama seperti update, hanya nomor valid yang bisa dipilih. Jika memasukkan nomor yang tidak valid, tampilannya akan seperti berikut:
 
-Apabila pengguna memasukkan nomor koleksi yang tidak tersedia, program akan menampilkan pesan "Nomor tidak valid!" sebagai bentuk validasi agar pengguna tidak bisa mengubah koleksi yang tidak ada.
+<img width="529" height="92" alt="image" src="https://github.com/user-attachments/assets/e8dea69c-c4d7-4e7b-be35-05a57aae6fe7" />
+
 
 ## 5. Cari Koleksi
 
-<img width="688" height="257" alt="image" src="https://github.com/user-attachments/assets/b1842f83-d03a-4824-b310-b656420faffd" />
+<img width="442" height="179" alt="image" src="https://github.com/user-attachments/assets/198d6677-c858-4b9a-9498-7dcbf0447efb" />
 
-Fitur pencarian berfungsi untuk memudahkan pengguna menemukan data sepatu tertentu ketika koleksi sudah cukup banyak. Pengguna hanya perlu memasukkan kata kunci berupa nama, merk, atau warna, kemudian sistem akan menampilkan daftar sepatu yang sesuai dengan kata kunci tersebut.
 
-<img width="523" height="245" alt="image" src="https://github.com/user-attachments/assets/3b610936-5e2b-453e-b22d-616a7b452ed8" />
+Fitur pencarian berfungsi untuk memudahkan pengguna menemukan data sepatu tertentu ketika koleksi sudah cukup banyak. Pengguna hanya perlu memasukkan kata kunci berupa nama, merk, atau warna, kemudian sistem akan menampilkan daftar sepatu yang sesuai dengan kata kunci tersebut. 
+Apabila kata kuncinya tidak ada yang sesuai, maka tampilannya akan seperti ini:
 
-Apabila pengguna memasukkan kata kunci koleksi yang tidak tersedia, program akan menampilkan pesan "Koleksi tidak ditemukan!" sebagai bentuk validasi agar pengguna tidak bisa mengubah koleksi yang tidak ada.
+<img width="393" height="183" alt="image" src="https://github.com/user-attachments/assets/6744d2d0-e3af-406e-aef6-a11f97735f3c" />
+
+
+
