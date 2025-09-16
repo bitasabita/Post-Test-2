@@ -12,7 +12,7 @@ Sistem manajemen koleksi sepatu digital adalah sebuah program yang dirancang unt
 Program ini dibuat dengan konsep:
 
 * **Constructor** → digunakan untuk membuat dan menginisialisasi objek sepatu.
-* **Access modifier** (private & public)**→ menjaga agar data tetap aman dan hanya bisa diakses lewat method tertentu.
+* **Access modifier** (private & public)→ menjaga agar data tetap aman dan hanya bisa diakses lewat method tertentu.
 * **Validasi input**→ memastikan data yang dimasukkan benar (misalnya ukuran sepatu harus berupa angka).
 * **Fitur Search**→ memudahkan pengguna menemukan data koleksi dengan cepat.
 
