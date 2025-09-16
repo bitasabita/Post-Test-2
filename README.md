@@ -18,12 +18,12 @@ Program ini dibuat dengan konsep:
 
 Fitur utama yang tersedia:
 
-1. **Tambah Koleksi**: pengguna bisa menambahkan sepatu baru dengan detail lengkap (nama, merk, warna, ukuran).
-2. **Lihat Koleksi**: menampilkan seluruh sepatu yang sudah tersimpan di dalam daftar.
+1. **Tambah Koleksi**: pengguna bisa menambahkan sepatu baru dengan detail                               lengkap (nama, merk, warna, ukuran).
+2. **Lihat Koleksi**: menampilkan seluruh sepatu yang sudah tersimpan di dalam                          daftar.
 3. **Ubah Koleksi**: memungkinkan pengguna memperbarui data sepatu tertentu.
-4. **Hapus Koleksi**: menghapus data sepatu dari daftar jika sudah tidak diperlukan.
-5. **Cari Koleksi**: mencari sepatu berdasarkan kata kunci, misalnya nama, merk, atau warna
-6. **Keluar Program**: menutup aplikasi dengan aman setelah pengguna selesai melakukan pengelolaan data
+4. **Hapus Koleksi**: menghapus data sepatu dari daftar jika sudah tidak                                diperlukan.
+5. **Cari Koleksi**: mencari sepatu berdasarkan kata kunci, misalnya nama, merk,                       atau warna
+6. **Keluar Program**: menutup aplikasi dengan aman setelah pengguna selesai                             melakukan pengelolaan data
 
 # Struktur Packages 
 
